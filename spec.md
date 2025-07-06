@@ -1,0 +1,8 @@
+| Layer                   | Recommendation                                                                                          | Why it fits **you**                                               |
+| ----------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Language**            | TypeScript everywhere                                                                                   | You’re already deep in TS/React.                                  |
+| **Extension framework** | `vite-plugin-crx-mv3`                                                                                   | Fast HMR, zero-config builds.                                     |
+| **LLM runtime**         | **Fast path:** Ollama (wraps llama.cpp server).<br>**Future path:** WASM + wGPU for fully in-extension. | Keep v1 simple; migrate when MV3 WASM limits are comfortable.     |
+| **UI**                  | React + shadcn/ui                                                                                       | You’ve used Ant Design; shadcn is lighter and tree-shakes.        |
+| **Testing**             | Jest + Playwright                                                                                       | Playwright automates real browser scenarios; Jest for unit logic. |
+| **Data sources**        | PhishTank, OpenPhish free feeds.                                                                        | No licensing headaches.                                           |
